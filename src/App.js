@@ -9,7 +9,7 @@ function App() {
         <img src="images/perrito.jpg" alt="Perrito"/ >
         <img src={logo} className="App-logo" alt="logo" /> {/* COMENTARIO */}
         <p>
-          Editar <code>MILANESA</code> and save to reload.
+          Editar <code>MILANESA</code> y guardar para recargar.
         </p>
         <a
           className="App-link"
