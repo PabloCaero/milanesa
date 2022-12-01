@@ -1,3 +1,11 @@
+
+:root{ /*elemento mas grande que existe dentro del proyecto. Los puedo utilizar en cualquier lado*/
+
+  --amarillo: #FF0;
+  --violeta: #A3A;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
