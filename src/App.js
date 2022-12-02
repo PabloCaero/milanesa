@@ -1,6 +1,7 @@
 /*import logo from './logo.svg';*/
 import Title from './components/Title';
 import Mascota from './components/Mascota';
+import Card from './components/Card';
 import './App.css';
 
 function App() {
@@ -10,12 +11,13 @@ function App() {
         {/*Llamada a Componentes*/}
         <Title />
         <Mascota />
+        <Card />
 
       <header className="App-header">
 
       
 
-        <img src="images/perrito.jpg" alt="Perrito"/ >
+        <img src="images/milanesa.png" alt="Milanesa"/ >
         
         <p>
           Editar <code>MILANESA</code> y guardar para recargar.
