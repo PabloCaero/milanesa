@@ -4,7 +4,7 @@ export default function Card(){
 
     let imagen = 'images/perrito.jpg';
     let titulo = 'Telefono celular';
-    let precio = 25000;
+    let precio = 2000;
     /*SE PUEDEN HACER OPERACIONES ACA*/
     let precio_descuento = precio * 0.8;
     
@@ -25,6 +25,9 @@ export default function Card(){
                  {!envio_gratis &&
                     <p className="gratis">¡No es gratis :C !</p> 
                  }
+
+            
+
             </div>   
 
         </div>

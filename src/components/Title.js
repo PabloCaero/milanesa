@@ -2,10 +2,18 @@ import './Title.css'
 
 /*FUNCIONES*/
 
-export default function Title(){/*DISPONIBLE EN CUALQUIER OTRO ARCHIVO DEL PROYECTO*/
-
+export default function Title({titulo, subtitulo}){/*DISPONIBLE EN CUALQUIER OTRO ARCHIVO DEL PROYECTO*/
+    {/*SOLO PUEDO ENVIAR UN ELEMENTO*/}
     return(
-      <h1 className="title">Hola te hablo desde el componente</h1>
+      
+      <div>
+      <h1 className="title">{titulo}</h1>
+
+      {subtitulo &&
+        <p>{subtitulo}</p>
+      }
+
+      </div>
     )
 
 }
