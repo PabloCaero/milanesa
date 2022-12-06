@@ -5,11 +5,26 @@ import Card from './components/Card';
 import './App.css';
 
 function App() {
+ {/*BUCLES*/}
+ const numeros = [45, 78, 12, 787, 341];
+
+
   return (
     <div className="App">
 
+       {/*BUCLES*/}
+
+        {numeros.map(numero => (
+          <p>El número es: {numero}</p>
+        ))}
+
         {/*Llamada a Componentes*/}
-        <Title />
+
+        <Title 
+        titulo={"Hola, te hablo desde el parametro titulo"}
+        subtitulo={"Hola, te hablo desde el parametro subtitulo"}
+        />
+       
         <Mascota />
         <Card />
 
