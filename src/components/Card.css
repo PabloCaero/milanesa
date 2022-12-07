@@ -1,30 +1,38 @@
 .card{
     max-width: 250px;
-    background-color: white;
+    background-color: black;
     border: 5px solid #DDD;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
 }
 
 .card-img{
-    border-bottom: 1px solid black;
-    width: 100%;
+
+    margin-top: 5px;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+
 }
 
 .card-info{
-   background-color: aqua;
+   background-color: black;
 }
 
 .card-info_titulo{
     font-size: xx-large;
+    color: white;;
 }
 
 .card-info_precio{
-    font-size: x-large;
+    background-color: black;
+    font-size: xx-large;
+    color: white;;
 }
 
 .gratis{
-    color: green;
+    background-color: black;
+    color: white;
     font-size:  18px;
     font-size: italic;
 }

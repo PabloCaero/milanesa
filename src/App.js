@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <CardWrapper 
-         titulo={"Menu"}
+         titulo={"Hola Julieta museo 🥰"}
         
         />
     </div>
