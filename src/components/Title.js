@@ -2,8 +2,12 @@ import './Title.css'
 
 /*FUNCIONES*/
 
-export default function Title({titulo, subtitulo}){/*DISPONIBLE EN CUALQUIER OTRO ARCHIVO DEL PROYECTO*/
-    {/*SOLO PUEDO ENVIAR UN ELEMENTO*/}
+export default function Title({titulo, subtitulo}){
+  
+  /*DISPONIBLE EN CUALQUIER OTRO ARCHIVO DEL PROYECTO*/
+   
+  /*SOLO PUEDO ENVIAR UN ELEMENTO*/
+
     return(
       
       <div>

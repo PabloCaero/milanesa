@@ -4,7 +4,7 @@ import Card from './Card';
 
 export default function CardWrapper({titulo}){
     
-    {/*MEJOR FORMA DE DEVOLVER UN TAG*/}
+    /*MEJOR FORMA DE DEVOLVER UN TAG <> </>*/
 
     return(
         <>
