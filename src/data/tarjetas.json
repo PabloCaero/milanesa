@@ -1,0 +1,32 @@
+
+[
+    {
+        
+        "titulo": "Asado",
+        "imagen": "images/asado.jpg",
+        "precio": "25000",
+        "envio_gratis": true
+
+    },
+    {
+        
+        "titulo": "Empanadas",
+        "imagen": "images/empanadas.jpg",
+        "precio": "15000",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "Milanesas",
+        "imagen": "images/milanesa.jpg",
+        "precio": "20000",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "Pastas",
+        "imagen": "images/pastas.jpg",
+        "precio": "10000",
+        "envio_gratis": true
+    }
+]
