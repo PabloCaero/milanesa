@@ -5,9 +5,10 @@ import './App.css';
 function App() {
  
   return (
+
     <div className="App">
         <CardWrapper 
-         titulo={"Hola Julieta museo 🥰"}
+         titulo={"Menú"}
         
         />
     </div>
