@@ -4,11 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*PARA PODER NAVEGAR ENTRE PAGINAS NECESITAMOS LO SIGUIENTE*/
+import { BrowserRouter } from 'react-router-dom';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* INTERNACIONALIZACION */}
-    <App />
+
+    {/* LLAMO AL COMPONENTE PARA NAVEGAR ENTRE PAGINAS */}
+
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
+
+   
   </React.StrictMode>
 );
 
