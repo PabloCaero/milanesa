@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Navegacion from "../components/Navegacion"
+import Footer from '../pages/Footer';
 
 export default function Layout(){
     return(
@@ -9,7 +10,8 @@ export default function Layout(){
   
         <Outlet /> {/*  SE MUESTRA EL CONTENIDO DE CADA PAGINA - ES LO DINAMICO */}
 
-
+        <Footer /> {/* ELEMENTO FIJO QUE SE MUESTRA SIEMPRE */}
+        
         </>
     )
 }

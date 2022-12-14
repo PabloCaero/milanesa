@@ -1,4 +1,6 @@
 import './Card.css';
+/*EJEMPLO DE EVENTO*/
+import EjemploEvento from './EjemploEvento';
 
 //CARD RECIBE UN OBJETO CON LOS DATOS. EL OBJETO SE LLAMA "card"
 export default function Card({card}){
@@ -22,6 +24,8 @@ export default function Card({card}){
             
 
             </div>   
+            
+            <EjemploEvento />
 
         </div>
         )

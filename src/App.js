@@ -1,7 +1,5 @@
 /*import logo from './logo.svg';*/
 
-/*PARA LLAMAR A COMPONENTES*/
-import CardWrapper from './components/CardWrapper';
 
 /*PARA NAVEGAR ENTRE PAGINAS*/
 import { Routes, Route } from 'react-router-dom';
@@ -10,6 +8,7 @@ import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Layout from './pages/Layout';
 import MensajeError from './pages/MensajeError';
+
 
 import './App.css';
 
@@ -33,10 +32,7 @@ function App() {
 
       </Routes>
 
-        <CardWrapper 
-         titulo={"Menú"}
-        
-        />
+      
     </div>
   );
 }
