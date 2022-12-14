@@ -1,6 +1,5 @@
 import './Card.css';
-/*EJEMPLO DE EVENTO*/
-import EjemploEvento from './EjemploEvento';
+
 
 //CARD RECIBE UN OBJETO CON LOS DATOS. EL OBJETO SE LLAMA "card"
 export default function Card({card}){
@@ -15,7 +14,7 @@ export default function Card({card}){
              {/*CONDICIONALES (CONDITIONAL RENDERING)*/}
              {/*Para mas de una condicion envio_gratis && precio < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
                  {card.precio > 20000 &&
-                    <p className="gratis">OH POR DIOS 🙀 </p> 
+                    <p className="gratis">OH POR DIOS! 🙀 </p> 
                  }
                  {!card.envio_gratis &&
                     <p className="gratis">¡No es gratis :C !</p> 
@@ -24,8 +23,8 @@ export default function Card({card}){
             
 
             </div>   
-            
-            <EjemploEvento />
+
+         
 
         </div>
         )
