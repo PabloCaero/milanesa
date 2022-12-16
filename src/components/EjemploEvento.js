@@ -2,7 +2,7 @@ export default function EjemploEvento(){
 
     /*  EVENTO JAVASCRIPT */
     function saludar(){
-        alert('Saludo desde el Function');
+        alert('hola mi amor 🥰');
     }
 
     /* EVENTO SHORTCUT */

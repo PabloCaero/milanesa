@@ -1,5 +1,9 @@
+import './Footer.css';
+
 export default function Footer(){
     return(
-        <h3>Soy el pié de página 🐾 </h3>
+        <div class="footer">
+        <footer>Soy el pié de página 🐾 </footer>
+        </div>
     )
 }

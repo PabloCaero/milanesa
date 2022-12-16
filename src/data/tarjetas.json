@@ -2,31 +2,31 @@
 [
     {
         
-        "titulo": "Asado",
+        "titulo": "[PRODUCTO 1]",
         "imagen": "images/asado.jpg",
-        "precio": "25000",
+        "precio": "[PRECIO 1]",
         "envio_gratis": true
 
     },
     {
         
-        "titulo": "Empanadas",
+        "titulo": "[PRODUCTO 2]",
         "imagen": "images/empanadas.jpg",
-        "precio": "15000",
+        "precio": "[PRECIO 2]",
         "envio_gratis": true
     },
     {
       
-        "titulo": "Milanesas",
+        "titulo": "[PRODUCTO 3]",
         "imagen": "images/milanesa.jpg",
-        "precio": "20000",
+        "precio": "[PRECIO 3]",
         "envio_gratis": true
     },
     {
       
-        "titulo": "Pastas",
+        "titulo": "[PRODUCTO 4]",
         "imagen": "images/pastas.jpg",
-        "precio": "35000",
+        "precio": "[PRECIO 4]",
         "envio_gratis": true
     }
 ]

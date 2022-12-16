@@ -7,6 +7,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Layout from './pages/Layout';
+import Juli from './pages/Juli';
+
 import MensajeError from './pages/MensajeError';
 
 
@@ -24,6 +26,7 @@ function App() {
 
           <Route index element={<Home />} />
           <Route path="nosotros" element={<Nosotros />} />
+          <Route path="juli" element={<Juli />} />
 
           {/*SI LA RUTA NO COINCIDE CON NINGUNA DE LAS ANTERIORES, MUESTRA UN 404*/}
           <Route path="*" element={<MensajeError />}/>

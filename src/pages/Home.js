@@ -11,13 +11,15 @@ import EjemploState from '../components/EjemploState';
 export default function Home(){
     return(
         <>
-        <h1>Estás en la home</h1>   
+
+        <h1>[HOMEPAGE]</h1>   
 
         <EjemploEvento />
 
         <EjemploState />   
 
-       <CardWrapper titulo={"Menú"}/> 
+        <CardWrapper titulo={"[NOMBRE DE SITIO]"}/> 
+
         </>
     )
 }

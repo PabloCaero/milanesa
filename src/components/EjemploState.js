@@ -15,7 +15,7 @@ export default function EjemploState(){
             </button>
 
             {mostrar &&
-                 <p>Hola Mundo!</p>
+                 <p>[Mensaje desde State]</p>
             }
         </>
     )
