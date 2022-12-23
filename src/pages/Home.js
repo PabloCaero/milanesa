@@ -7,6 +7,12 @@ import EjemploEvento from '../components/EjemploEvento';
 /*ESTADOS Y HOOKS*/
 import EjemploState from '../components/EjemploState';
 
+/*EJEMPLO CONTADOR*/
+import Contador from '../components/Contador';
+
+/*FETCH*/
+import Clima from '../components/Clima'
+
 
 export default function Home(){
     return(
@@ -20,6 +26,9 @@ export default function Home(){
 
         <CardWrapper titulo={"[NOMBRE DE SITIO]"}/> 
 
+        <Contador />
+
+        <Clima />
         </>
     )
 }
