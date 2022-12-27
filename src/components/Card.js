@@ -1,6 +1,7 @@
 import './Card.css';
 
 
+
 //CARD RECIBE UN OBJETO CON LOS DATOS. EL OBJETO SE LLAMA "card"
 export default function Card({card}){
 

@@ -1,5 +1,6 @@
 /*ESTADOS Y HOOKS*/
 import { useState } from "react";
+import Button from 'react-bootstrap/Button';
 
 export default function EjemploState(){
 
@@ -10,9 +11,9 @@ export default function EjemploState(){
 
     return(
         <>
-            <button onClick={() => setMostrar(!mostrar)}>
+            <Button variant="warning" onClick={() => setMostrar(!mostrar)}>
                 Mostrar
-            </button>
+            </Button>
 
             {mostrar &&
                  <p>[Mensaje desde State]</p>

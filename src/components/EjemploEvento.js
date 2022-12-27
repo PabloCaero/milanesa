@@ -1,3 +1,6 @@
+import Button from 'react-bootstrap/Button';
+
+
 export default function EjemploEvento(){
 
     /*  EVENTO JAVASCRIPT */
@@ -13,8 +16,10 @@ export default function EjemploEvento(){
     ) */
 
     return(
-        <button onClick={saludar}>
+       
+        <Button variant="danger" onClick={saludar}>
             Cliqueame
-        </button>
-    )
+        </Button>
+     
+    );
 }
