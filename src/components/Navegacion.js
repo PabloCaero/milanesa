@@ -8,7 +8,7 @@ export default function Navegacion(){
         <ul>
            <li><Link to="/">Home</Link></li> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
            <li><Link to="/nosotros">Nosotros</Link></li>      
-           <li><Link to="/juli">Mensajito oculto #8</Link></li>
+           <li><Link to="/juli">Mensajito oculto #9</Link></li>
         
         </ul>
     )
