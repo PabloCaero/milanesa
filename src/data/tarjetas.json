@@ -2,31 +2,88 @@
 [
     {
         
-        "titulo": "[PRODUCTO 1]",
+        "titulo": "[RECETA 1]",
         "imagen": "images/asado.jpg",
-        "precio": "[PRECIO 1]",
+        "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
 
     },
     {
         
-        "titulo": "[PRODUCTO 2]",
+        "titulo": "[RECETA 2]",
         "imagen": "images/empanadas.jpg",
-        "precio": "[PRECIO 2]",
+        "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
       
-        "titulo": "[PRODUCTO 3]",
+        "titulo": "[RECETA 3]",
         "imagen": "images/milanesa.jpg",
-        "precio": "[PRECIO 3]",
+        "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
       
-        "titulo": "[PRODUCTO 4]",
+        "titulo": "[RECETA 4]",
         "imagen": "images/pastas.jpg",
-        "precio": "[PRECIO 4]",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 5]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 6]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 7]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 8]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 9]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 10]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 11]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
+        "envio_gratis": true
+    },
+    {
+      
+        "titulo": "[RECETA 12]",
+        "imagen": "images/pastas.jpg",
+        "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     }
+    
 ]

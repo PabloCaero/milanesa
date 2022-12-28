@@ -1,9 +1,17 @@
 import './Card.css';
-
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 
 //CARD RECIBE UN OBJETO CON LOS DATOS. EL OBJETO SE LLAMA "card"
 export default function Card({card}){
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+      
 
     return(
 
@@ -21,10 +29,38 @@ export default function Card({card}){
                     <p className="gratis">¡No es gratis :C !</p> 
                  }
 
-            
+                <Button variant="danger" onClick={handleShow}>
+                    Abrir Modal
+                 </Button>
+
+                
 
             </div>   
 
+            <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{card.titulo}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+
+        <img className="card-img2" src={card.imagen} alt=""/>
+    
+
+
+        <p className="card-info_precio">${card.precio}</p>        
+
+
+
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>     
          
 
         </div>

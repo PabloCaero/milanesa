@@ -3,7 +3,8 @@ export default function Nosotros(){
         <>
        
         <br />
-        <h2>¿y si nos vemos un ratito? 👀</h2>
+        <h4>Algo parecido te dije en viajecito (y todavía lo sigo pensando 🥰)</h4>
+        <img src="images/juli.PNG" alt=""/>
         <br />
 
         </>
