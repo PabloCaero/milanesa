@@ -9,13 +9,12 @@ export default function Navegacion(){
     return(
 
         <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">[PÁGINA WEB]</Navbar.Brand>
           <Nav className="me-auto">
 
-          <Nav.Link href="#"><Link to="/">Home</Link></Nav.Link>
-            {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+          <Nav.Link href="#"><Link to="/">Home</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
          
             <Nav.Link href="#"><Link to="/nosotros">Nosotros</Link> </Nav.Link>
 
