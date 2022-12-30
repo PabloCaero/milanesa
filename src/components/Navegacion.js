@@ -20,7 +20,7 @@ export default function Navegacion(){
            &nbsp
            <Link to="/juli">Mensajito oculto #9</Link>
            &nbsp
-           <Link to="/agregartarjeta">Agregar Tarjeta</Link>
+           <Link to="/abmtarjetas">ABM_Tarjetas</Link>
 
           </Nav>
         </Container>

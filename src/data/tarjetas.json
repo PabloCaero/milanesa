@@ -1,85 +1,85 @@
 
 [
     {
-        
+        "index": "1",
         "titulo": "[RECETA 1]",
         "imagen": "images/asado.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "envio_gratis": false
 
     },
     {
-        
+        "index": "2",
         "titulo": "[RECETA 2]",
         "imagen": "images/empanadas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "3",
         "titulo": "[RECETA 3]",
         "imagen": "images/milanesa.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "4",
         "titulo": "[RECETA 4]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "5",
         "titulo": "[RECETA 5]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "envio_gratis": false
     },
     {
-      
+        "index": "6",
         "titulo": "[RECETA 6]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "7",
         "titulo": "[RECETA 7]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "envio_gratis": false
     },
     {
-      
+        "index": "8",
         "titulo": "[RECETA 8]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "envio_gratis": false
     },
     {
-      
+        "index": "9",
         "titulo": "[RECETA 9]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "10",
         "titulo": "[RECETA 10]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "11",
         "titulo": "[RECETA 11]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",
         "envio_gratis": true
     },
     {
-      
+        "index": "12",
         "titulo": "[RECETA 12]",
         "imagen": "images/pastas.jpg",
         "precio": "[TIEMPO Y DIFICULTAD]",

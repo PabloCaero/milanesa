@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-/*BOOTSTRAP*/
-import 'bootstrap/dist/css/bootstrap.min.css';
-//import './index.css';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 /*PARA PODER NAVEGAR ENTRE PAGINAS NECESITAMOS LO SIGUIENTE*/
 import { BrowserRouter } from 'react-router-dom';
 
+/*BOOTSTRAP*/
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import 'react-jsonschema-form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
