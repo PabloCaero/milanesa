@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Layout from './pages/Layout';
 import Juli from './pages/Juli';
-import ABM_Tarjetas from './pages/ABM_Tarjetas';
+import ABMTarjetas from './pages/ABMTarjetas';
 
 
 import MensajeError from './pages/MensajeError';
@@ -29,7 +29,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="nosotros" element={<Nosotros />} />
           <Route path="juli" element={<Juli />} />
-          <Route path="abmtarjetas" element={<ABM_Tarjetas />} />
+          
+         <Route path="abmTarjetas" element={<ABMTarjetas />} />
 
           {/*SI LA RUTA NO COINCIDE CON NINGUNA DE LAS ANTERIORES, MUESTRA UN 404*/}
           <Route path="*" element={<MensajeError />}/>
