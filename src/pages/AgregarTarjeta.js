@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useState } from "react";
 
-function AgregarTarjeta() {
+export default function AgregarTarjeta() {
     
     const [tituloState, setTitulo] = useState(); //ES UN ARRAY
     const [precioState, setPrecio] = useState(); //ES UN ARRAY
@@ -64,4 +64,3 @@ function AgregarTarjeta() {
     );
   }
   
-  export default AgregarTarjeta;
