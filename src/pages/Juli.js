@@ -1,4 +1,4 @@
-export default function Nosotros(){
+export default function Juli(){
     return(
         <>
        

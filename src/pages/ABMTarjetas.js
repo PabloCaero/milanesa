@@ -2,7 +2,7 @@ import tarjetas from '../data/tarjetas.json' //IMPORTO LA DATA
 import { Table, Button, Container/*, Modal, ModalBody, ModalHeader, FormGroup, ModalFooter */} from 'react-bootstrap';
 //import { useState } from "react";
 
-export default function AgregarTarjeta() {
+export default function ABM_Tarjetas() {
     
 
     return (
