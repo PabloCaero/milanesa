@@ -1,16 +1,21 @@
 import './CardWrapper.css';
 import tarjetas from '../data/tarjetas.json' //IMPORTO LA DATA
 import Card from './Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 export default function CardWrapper({titulo}){
     
     /*MEJOR FORMA DE DEVOLVER UN TAG <> </>*/
 
     return(
-        <>
-        <h2>{titulo}</h2>
-
-        <div className="grilla">
+      <center>
+      <Row xs={1} md={4} className="g-2">
+      
+      
+        
+       
 
         {/*Cuando usamos un .map los elementos internos necesitan una propiedad "key" con un valor único. 
         Podemos utilizar un ID o el indice del array
@@ -28,10 +33,12 @@ export default function CardWrapper({titulo}){
         */}
 
         {tarjetas.map((tarjeta, index) => (
+          <Col>
           <Card 
             key={index}
             card={tarjeta}
           />
+          </Col>
         ))}
 
 
@@ -39,7 +46,8 @@ export default function CardWrapper({titulo}){
             <p><Card /></p>
             <p><Card /></p>
             <p><Card /></p>  */} 
-        </div>
-        </> 
+        
+        </Row>
+        </center>
     )
 }

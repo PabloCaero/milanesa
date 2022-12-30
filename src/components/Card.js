@@ -32,6 +32,7 @@ export default function Card({card}){
                 <Button variant="danger" onClick={handleShow}>
                     Abrir Modal
                  </Button>
+                <p className="card-info_titulo"></p>
 
                 
 
@@ -47,18 +48,16 @@ export default function Card({card}){
     
 
 
-        <p className="card-info_precio">${card.precio}</p>        
+        <p >${card.precio}</p>        
 
 
 
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Cerrar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
+         
         </Modal.Footer>
       </Modal>     
          
