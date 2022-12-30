@@ -13,14 +13,15 @@ export default function Navegacion(){
         <Container>
           <Navbar.Brand href="/">[PÁGINA WEB]</Navbar.Brand>
           <Nav className="me-auto">
-           &nbsp
-           <Link to="/">Home</Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
-           &nbsp
-           <Link to="/nosotros">Nosotros</Link>      
-           &nbsp
-           <Link to="/juli">Mensajito oculto #9</Link>
-           &nbsp
-           <Link to="/abmtarjetas">ABM_Tarjetas</Link>
+
+          <Nav.Link href="#"><Link to="/">Home</Link></Nav.Link>
+            {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+         
+            <Nav.Link href="#"><Link to="/nosotros">Nosotros</Link> </Nav.Link>
+
+           <Nav.Link href="#"><Link to="/juli">Mensajito oculto #9</Link></Nav.Link>
+          
+           <Nav.Link href="#"><Link to="/abmtarjetas">ABM_Tarjetas</Link></Nav.Link>
 
           </Nav>
         </Container>
