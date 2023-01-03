@@ -20,7 +20,7 @@ export default function Navegacion(){
 
            <Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>
           
-           <Nav.Link href="#"><Link to="/abmtarjetas">ABM_Tarjetas</Link></Nav.Link>
+           <Nav.Link href="#"><Link to="/abmtarjetas">Administrar Elementos</Link></Nav.Link>
 
           </Nav>
         </Container>

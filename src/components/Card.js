@@ -19,14 +19,14 @@ export default function Card({card}){
             <img className="card-img" src={card.imagen} alt=""/>
             <div className="card-info">
              <h3 className="card-info_titulo">{card.titulo}</h3>
-             <p className="card-info_precio">${card.precio}</p>
+             <p className="card-info_descripcion">{card.descripcion}</p>
              {/*CONDICIONALES (CONDITIONAL RENDERING)*/}
-             {/*Para mas de una condicion envio_gratis && precio < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
-                 {card.precio > 20000 &&
-                    <p className="gratis">OH POR DIOS! 🙀 </p> 
+             {/*Para mas de una condicion condicion_tf && descripcion < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
+                 {card.condicion_tf  &&
+                    <p className="gratis"> [TRUE] </p> 
                  }
-                 {!card.envio_gratis &&
-                    <p className="gratis">¡No es gratis :C !</p> 
+                 {!card.condicion_tf &&
+                    <p className="gratis">[FALSE]</p> 
                  }
 
                 <Button variant="danger" onClick={handleShow}>
@@ -48,7 +48,7 @@ export default function Card({card}){
     
 
 
-        <p >${card.precio}</p>        
+        <p >{card.descripcion}</p>        
 
 
 

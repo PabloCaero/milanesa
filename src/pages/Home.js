@@ -20,13 +20,13 @@ export default function Home(){
 
         <h1>[HOMEPAGE]</h1>   
 
-        <EjemploEvento />
-
-        <EjemploState />   
-
         <CardWrapper titulo={"[NOMBRE DE SITIO]"}/> 
 
         <Contador />
+
+        <EjemploEvento />
+
+        <EjemploState />   
 
         <Clima />
         </>

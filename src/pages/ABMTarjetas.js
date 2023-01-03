@@ -13,9 +13,9 @@ class ABMTarjetas extends React.Component{
     form:{
       index: '',
       titulo: '',
-      precio: '',
+      descripcion: '',
       imagen: '',
-      envio_gratis: false 
+      condicion_tf: false 
     }
 
   }
@@ -30,8 +30,21 @@ class ABMTarjetas extends React.Component{
     this.setState({modalModificar:false});
   }
 
-  modificar=()=>{
+  modificar=(dato)=>{
+    var contador = 0;
+    var lista = tarjetas;
     
+    lista.forEach((tarjeta)=>{
+      if(dato.index===tarjeta.index){
+        lista[contador].titulo = dato.titulo;
+        lista[contador].descripcion = dato.descripcion;
+        lista[contador].imagen = dato.imagen;
+        lista[contador].condicion_tf = dato.condicion_tf;
+      }
+      contador++;
+      
+  });
+    this.setState({tarjetas: lista, modalModificar: false});
   }
 
   
@@ -63,7 +76,18 @@ class ABMTarjetas extends React.Component{
     })
   }
 
-
+//PARA ELIMINAR
+eliminar=(dato)=>{
+    var contador=0;
+    var lista = tarjetas;
+    lista.forEach((tarjeta)=>{
+      if(tarjeta.index===dato.index){
+        lista.splice(contador, 1);
+      }
+      contador++;
+    });
+    this.setState({tarjetas: lista})
+}
 
 
     render(){
@@ -81,9 +105,9 @@ class ABMTarjetas extends React.Component{
             <tr>
               <th>ID</th>
               <th>Título</th>
-              <th>Precio</th>
+              <th>Descripcion</th>
               {/*<th>URL Imagen</th>*/}
-              <th>Envío</th>  
+              <th>Condición T/F</th>  
               <th>Acciones</th>  
 
             </tr>
@@ -95,19 +119,19 @@ class ABMTarjetas extends React.Component{
               <tr>
               <td>{tarjeta.index}</td>
               <td>{tarjeta.titulo}</td>
-              <td>${tarjeta.precio}</td>
+              <td>{tarjeta.descripcion}</td>
               {/*<td >{tarjeta.imagen}</td>*/}
-              <td>{tarjeta.envio_gratis &&
-                  <p>Gratis 🙂</p>
+              <td>{tarjeta.condicion_tf &&
+                  <p>[TRUE]</p>
                   }
-                  {!tarjeta.envio_gratis &&
-                  <p>No es Gratis 🥺</p>
+                  {!tarjeta.condicion_tf &&
+                  <p>[FALSE]</p>
                   }                 
               </td>          
               <td>
                 <Button color="warning" onClick={()=>this.mostrarModalModificar(tarjeta)}>Editar</Button>
                 {" "}
-                <Button color="danger">Borrar</Button>
+                <Button color="danger" onClick={()=>this.eliminar(tarjeta)}>Borrar</Button>
               </td>          
              </tr>
       
@@ -155,12 +179,12 @@ class ABMTarjetas extends React.Component{
 
             <FormGroup>
               <label>
-                Precio: $
+                Descripcion:
               </label>
 
               <input
                 className="form-control"
-                name = "precio"
+                name = "descripcion"
                 type="text"
                 onChange = {this.handleChange}  
               
@@ -182,12 +206,12 @@ class ABMTarjetas extends React.Component{
 
             <FormGroup>
               <label>
-                Envío Gratis:
+                Condición T/F:
               </label>
                   <br />
               <input
                 type="checkbox"
-                name="envio_gratis"  
+                name="condicion_tf"  
                 onChange = {this.handleChange}      
                />   
             </FormGroup>
@@ -242,15 +266,15 @@ class ABMTarjetas extends React.Component{
 
             <FormGroup>
               <label>
-                Precio: $
+                Descripcion:
               </label>
 
               <input
                 className="form-control"
-                name = "precio"
+                name = "descripcion"
                 type="text"
                 onChange = {this.handleChange}  
-                value={this.state.form.precio}  
+                value={this.state.form.descripcion}  
               
               />        
             </FormGroup>
@@ -271,14 +295,14 @@ class ABMTarjetas extends React.Component{
 
             <FormGroup>
               <label>
-                Envío Gratis:
+                Condición T/F:
               </label>
                   <br />
               <input
                 type="checkbox"
-                name="envio_gratis"  
+                name="condicion_tf"  
                 onChange = {this.handleChange}  
-                value={this.state.form.envio_gratis}      
+                value={this.state.form.condicion_tf}      
                />   
             </FormGroup>
 
@@ -286,7 +310,7 @@ class ABMTarjetas extends React.Component{
 
         
             <ModalFooter>
-              <Button color="primary" onClick={()=>this.modificar()} >Modificar</Button>
+              <Button color="primary" onClick={()=>this.modificar(this.state.form)} >Modificar</Button>
               <Button color="danger" onClick={()=>this.ocultarModalModificar()} >Cancelar</Button>
             </ModalFooter>
 

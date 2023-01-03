@@ -2,88 +2,88 @@
 [
     {
         "index": "1",
-        "titulo": "[RECETA 1]",
+        "titulo": "[ITEM 1]",
         "imagen": "images/asado.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": false
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": false
 
     },
     {
         "index": "2",
-        "titulo": "[RECETA 2]",
+        "titulo": "[ITEM 2]",
         "imagen": "images/empanadas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "3",
-        "titulo": "[RECETA 3]",
+        "titulo": "[ITEM 3]",
         "imagen": "images/milanesa.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "4",
-        "titulo": "[RECETA 4]",
+        "titulo": "[ITEM 4]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "5",
-        "titulo": "[RECETA 5]",
+        "titulo": "[ITEM 5]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": false
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": false
     },
     {
         "index": "6",
-        "titulo": "[RECETA 6]",
+        "titulo": "[ITEM 6]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "7",
-        "titulo": "[RECETA 7]",
+        "titulo": "[ITEM 7]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": false
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": false
     },
     {
         "index": "8",
-        "titulo": "[RECETA 8]",
+        "titulo": "[ITEM 8]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": false
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": false
     },
     {
         "index": "9",
-        "titulo": "[RECETA 9]",
+        "titulo": "[ITEM 9]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "10",
-        "titulo": "[RECETA 10]",
+        "titulo": "[ITEM 10]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "11",
-        "titulo": "[RECETA 11]",
+        "titulo": "[ITEM 11]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     },
     {
         "index": "12",
-        "titulo": "[RECETA 12]",
+        "titulo": "[ITEM 12]",
         "imagen": "images/pastas.jpg",
-        "precio": "[TIEMPO Y DIFICULTAD]",
-        "envio_gratis": true
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
     }
     
 ]
