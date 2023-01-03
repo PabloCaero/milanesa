@@ -3,8 +3,8 @@ export default function Juli(){
         <>
        
         <br />
-        <h4>Algo parecido te dije en viajecito (y todavía lo sigo pensando 🥰)</h4>
         <img src="images/juli.PNG" alt=""/>
+        <h4>el 12/1 se habilita por este medio 😇</h4>
         <br />
 
         </>

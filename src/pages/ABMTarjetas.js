@@ -8,6 +8,7 @@ class ABMTarjetas extends React.Component{
 
   state = {
     modalInsertar: false,
+    modalModificar: false,
 
     form:{
       index: '',
@@ -19,6 +20,22 @@ class ABMTarjetas extends React.Component{
 
   }
 
+  //PARA MODIFICAR
+  mostrarModalModificar=(dato)=>{
+    this.setState({modalModificar:true, form: dato});
+  
+  }
+
+  ocultarModalModificar=()=>{
+    this.setState({modalModificar:false});
+  }
+
+  modificar=()=>{
+    
+  }
+
+  
+  //PARA INSERTAR
   mostrarModalInsertar=()=>{
     this.setState({modalInsertar:true});
   
@@ -65,7 +82,7 @@ class ABMTarjetas extends React.Component{
               <th>ID</th>
               <th>Título</th>
               <th>Precio</th>
-              <th>URL Imagen</th>
+              {/*<th>URL Imagen</th>*/}
               <th>Envío</th>  
               <th>Acciones</th>  
 
@@ -79,7 +96,7 @@ class ABMTarjetas extends React.Component{
               <td>{tarjeta.index}</td>
               <td>{tarjeta.titulo}</td>
               <td>${tarjeta.precio}</td>
-              <td>{tarjeta.imagen}</td>
+              {/*<td >{tarjeta.imagen}</td>*/}
               <td>{tarjeta.envio_gratis &&
                   <p>Gratis 🙂</p>
                   }
@@ -88,7 +105,7 @@ class ABMTarjetas extends React.Component{
                   }                 
               </td>          
               <td>
-                <Button color="warning">Editar</Button>
+                <Button color="warning" onClick={()=>this.mostrarModalModificar(tarjeta)}>Editar</Button>
                 {" "}
                 <Button color="danger">Borrar</Button>
               </td>          
@@ -101,8 +118,8 @@ class ABMTarjetas extends React.Component{
         </Table>
       </Container>
 
+    {/*MODAL PARA INSERTAR*/}
     <Modal isOpen={this.state.modalInsertar}>
-          {/*MODAL PARA ALTA*/}
          <ModalHeader>
            <div><h3>Insertar Registro</h3></div>
          </ModalHeader>
@@ -167,7 +184,7 @@ class ABMTarjetas extends React.Component{
               <label>
                 Envío Gratis:
               </label>
-
+                  <br />
               <input
                 type="checkbox"
                 name="envio_gratis"  
@@ -185,6 +202,97 @@ class ABMTarjetas extends React.Component{
 
 
     </Modal>
+
+
+     {/*MODAL PARA MODIFICAR*/}
+     <Modal isOpen={this.state.modalModificar}>
+         <ModalHeader>
+           <div><h3>Modificar Registro</h3></div>
+         </ModalHeader>
+
+         <ModalBody>
+            <FormGroup>
+              <label>
+                ID:
+              </label>
+
+              <input
+                name = "index"
+                className="form-control"
+                readOnly
+                type="text"
+                value={this.state.form.index}
+              
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
+                Título:
+              </label>
+
+              <input
+                className="form-control"
+                name = "titulo"
+                type="text"
+                onChange = {this.handleChange}    
+                value={this.state.form.titulo}          
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
+                Precio: $
+              </label>
+
+              <input
+                className="form-control"
+                name = "precio"
+                type="text"
+                onChange = {this.handleChange}  
+                value={this.state.form.precio}  
+              
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
+                URL Imágen:
+              </label>
+
+              <input
+                className="form-control"
+                name = "imagen"
+                type="text"
+                onChange = {this.handleChange}  
+                value={this.state.form.imagen}  
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
+                Envío Gratis:
+              </label>
+                  <br />
+              <input
+                type="checkbox"
+                name="envio_gratis"  
+                onChange = {this.handleChange}  
+                value={this.state.form.envio_gratis}      
+               />   
+            </FormGroup>
+
+         </ModalBody>
+
+        
+            <ModalFooter>
+              <Button color="primary" onClick={()=>this.modificar()} >Modificar</Button>
+              <Button color="danger" onClick={()=>this.ocultarModalModificar()} >Cancelar</Button>
+            </ModalFooter>
+
+
+    </Modal>
+
 
      </>)
     

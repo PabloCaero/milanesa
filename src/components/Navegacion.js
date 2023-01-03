@@ -18,7 +18,7 @@ export default function Navegacion(){
          
             <Nav.Link href="#"><Link to="/nosotros">Nosotros</Link> </Nav.Link>
 
-           <Nav.Link href="#"><Link to="/juli">Mensajito oculto #9</Link></Nav.Link>
+           <Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>
           
            <Nav.Link href="#"><Link to="/abmtarjetas">ABM_Tarjetas</Link></Nav.Link>
 
