@@ -1,43 +1,62 @@
 import tarjetas from '../data/tarjetas.json' //IMPORTO LA DATA
-import {Table, Button, Container, Modal, ModalHeader, FormGroup, ModalFooter, ModalBody, FormCheck} from 'react-bootstrap';
-import { useState } from "react";
+import {Table, Button, Container, Modal, ModalHeader, FormGroup, ModalFooter, ModalBody } from 'reactstrap';
+import React from 'react';
 
 
-export default function ABMTarjetas() {
 
-  
+class ABMTarjetas extends React.Component{
 
-  //PARA MANEJO DE MODAL INSERTAR
-  const [showInsertar, setShowInsertar] = useState(false);
-  const handleCloseInsertar = () => setShowInsertar(false);
-  const handleShowInsertar = () => setShowInsertar(true);
+  state = {
+    modalInsertar: false,
 
-  //PARA INSERTAR
-  function insertar(){
-   tarjetas.push({
-      "index": "16",
-      "titulo": "[RECETA 16]",
-      "imagen": "images/pastas.jpg",
-      "precio": "[TIEMPO Y DIFICULTAD]",
-      "envio_gratis": true
-      
-    })
+    form:{
+      index: '',
+      titulo: '',
+      precio: '',
+      imagen: '',
+      envio_gratis: false 
+    }
 
-    setShowInsertar(false);
   }
 
+  mostrarModalInsertar=()=>{
+    this.setState({modalInsertar:true});
   
-  
+  }
 
-    return (
-      <>
+  ocultarModalInsertar=()=>{
+    this.setState({modalInsertar:false});
+  }
+
+  insertar=()=>{
+    var valorNuevo={...this.state.form};
+    valorNuevo.index = tarjetas.length+1;
+
+    var lista = tarjetas;
+    lista.push(valorNuevo);
+    this.setState({tarjetas: lista, modalInsertar: false})
+  }
+
+  handleChange=e=>{
+    this.setState({
+      form:{
+        ...this.state.form,
+        [e.target.name]: e.target.value,
+      }
+    })
+  }
 
 
-     
+
+
+    render(){
+      return(
+    
+      <>  
       <Container>
 
         <br />
-        <Button variant ="primary" onClick={handleShowInsertar}>Insertar Nuevo Elemento</Button>
+        <Button color ="primary" onClick={()=>this.mostrarModalInsertar()}>Insertar Nuevo Elemento</Button>
         <br /><br />
 
         <Table>
@@ -69,9 +88,9 @@ export default function ABMTarjetas() {
                   }                 
               </td>          
               <td>
-                <Button variant="warning">Editar</Button>
+                <Button color="warning">Editar</Button>
                 {" "}
-                <Button variant="danger">Borrar</Button>
+                <Button color="danger">Borrar</Button>
               </td>          
              </tr>
       
@@ -82,7 +101,7 @@ export default function ABMTarjetas() {
         </Table>
       </Container>
 
-    <Modal show={showInsertar} onHide={handleCloseInsertar}>
+    <Modal isOpen={this.state.modalInsertar}>
           {/*MODAL PARA ALTA*/}
          <ModalHeader>
            <div><h3>Insertar Registro</h3></div>
@@ -95,7 +114,7 @@ export default function ABMTarjetas() {
               </label>
 
               <input
-                id = "txtIndex"
+                name = "index"
                 className="form-control"
                 readOnly
                 type="text"
@@ -111,10 +130,9 @@ export default function ABMTarjetas() {
 
               <input
                 className="form-control"
-                id = "txtTitulo"
+                name = "titulo"
                 type="text"
-              
-              
+                onChange = {this.handleChange}              
               />        
             </FormGroup>
 
@@ -125,9 +143,9 @@ export default function ABMTarjetas() {
 
               <input
                 className="form-control"
-                id = "txtPrecio"
+                name = "precio"
                 type="text"
-              
+                onChange = {this.handleChange}  
               
               />        
             </FormGroup>
@@ -139,9 +157,9 @@ export default function ABMTarjetas() {
 
               <input
                 className="form-control"
-                name = "txtTitulo"
+                name = "imagen"
                 type="text"
-                
+                onChange = {this.handleChange}  
               />        
             </FormGroup>
 
@@ -150,10 +168,10 @@ export default function ABMTarjetas() {
                 Envío Gratis:
               </label>
 
-              <FormCheck 
-                type="switch"
-                name="chkEnvio"  
-                    
+              <input
+                type="checkbox"
+                name="envio_gratis"  
+                onChange = {this.handleChange}      
                />   
             </FormGroup>
 
@@ -161,14 +179,17 @@ export default function ABMTarjetas() {
 
         
             <ModalFooter>
-              <Button variant="primary" oncClick={insertar}>Insertar</Button>
-              <Button variant="danger" onClick={handleCloseInsertar}>Cancelar</Button>
+              <Button color="primary" onClick={()=>this.insertar()} >Insertar</Button>
+              <Button color="danger" onClick={()=>this.ocultarModalInsertar()} >Cancelar</Button>
             </ModalFooter>
 
 
     </Modal>
 
-     </>
-    );
+     </>)
+    
   }
+}
+
+  export default ABMTarjetas;
   
