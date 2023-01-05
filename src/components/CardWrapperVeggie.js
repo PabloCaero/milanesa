@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 
-export default function CardWrapper({titulo}){
+export default function CardWrapperVeggie({titulo}){
     
    
 
@@ -36,8 +36,8 @@ export default function CardWrapper({titulo}){
 
         {tarjetas.map((tarjeta, index) => (
           <Col>
-          {tarjeta.condicion_tf &&
-          <Card 
+          {!tarjeta.condicion_tf &&
+          <Card
             key={index}
             card={tarjeta}
           />

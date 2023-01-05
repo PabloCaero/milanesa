@@ -4,7 +4,10 @@ import React from 'react';
 
 
 
+
+
 class ABMTarjetas extends React.Component{
+
 
   state = {
     modalInsertar: false,
@@ -61,6 +64,7 @@ class ABMTarjetas extends React.Component{
   insertar=()=>{
     var valorNuevo={...this.state.form};
     valorNuevo.index = tarjetas.length+1;
+
 
     var lista = tarjetas;
     lista.push(valorNuevo);

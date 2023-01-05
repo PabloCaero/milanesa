@@ -1,5 +1,5 @@
 /*PARA LLAMAR A COMPONENTES*/
-import CardWrapperVeggie from '../components/CardWrapper';
+import CardWrapperVeggie from '../components/CardWrapperVeggie';
 
 /*EJEMPLO DE EVENTO*/
 //import EjemploEvento from '../components/EjemploEvento';

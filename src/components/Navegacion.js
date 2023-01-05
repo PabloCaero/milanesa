@@ -11,16 +11,18 @@ export default function Navegacion(){
         <>
       <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">[PÁGINA WEB]</Navbar.Brand>
+          <Navbar.Brand href="/">Recetas Simples 🍕</Navbar.Brand>
           <Nav className="me-auto">
 
-          <Nav.Link href="#"><Link to="/">Home</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
-         
+           <Nav.Link href="#"><Link to="/">Recetas</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+
+           <Nav.Link href="#"><Link to="/recetasveggie">Opciones Veggie</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+        
             <Nav.Link href="#"><Link to="/nosotros">Nosotros</Link> </Nav.Link>
 
            <Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>
           
-           <Nav.Link href="#"><Link to="/abmtarjetas">Administrar Elementos</Link></Nav.Link>
+           <Nav.Link href="#"><Link to="/abmtarjetas">Administrar Recetas</Link></Nav.Link>
 
           </Nav>
         </Container>

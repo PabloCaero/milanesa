@@ -13,6 +13,9 @@ export default function Card({card}){
     const handleShow = () => setShow(true);
       
 
+    
+    
+
     return(
 
         <div className="card">
@@ -20,17 +23,19 @@ export default function Card({card}){
             <div className="card-info">
              <h3 className="card-info_titulo">{card.titulo}</h3>
              <p className="card-info_descripcion">{card.descripcion}</p>
+
+
              {/*CONDICIONALES (CONDITIONAL RENDERING)*/}
              {/*Para mas de una condicion condicion_tf && descripcion < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
                  {card.condicion_tf  &&
-                    <p className="gratis"> [TRUE] </p> 
+                    <p className="gratis"> Receta Normal </p> 
                  }
                  {!card.condicion_tf &&
-                    <p className="gratis">[FALSE]</p> 
+                    <p className="gratis"> Receta Vegetariana </p> 
                  }
 
                 <Button variant="danger" onClick={handleShow}>
-                    Abrir Modal
+                    👀
                  </Button>
                 <p className="card-info_titulo"></p>
 
