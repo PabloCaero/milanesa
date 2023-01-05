@@ -15,16 +15,15 @@ export default function Contacto(){
     <fieldset>
       <input placeholder="Contacto Telefónico" type="tel" tabindex="3" />
     </fieldset>
-  
+        
     <fieldset>
       <textarea placeholder="Tu mensaje" tabindex="5" required></textarea>
         </fieldset>
             <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando ✉️">Enviar 🕊️</button>
             </fieldset>
+       
         </form>
- 
-  
 </div>
     )
 }
