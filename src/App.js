@@ -10,6 +10,7 @@ import Layout from './pages/Layout';
 import Juli from './pages/Juli';
 import ABMTarjetas from './pages/ABMTarjetas';
 import RecetasVeggie from './pages/RecetasVeggie';
+import Contacto from './pages/Contacto';
 
 
 import MensajeError from './pages/MensajeError';
@@ -30,6 +31,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="recetasveggie" element={<RecetasVeggie />} />
           <Route path="nosotros" element={<Nosotros />} />
+          <Route path="contacto" element={<Contacto />} />
           <Route path="juli" element={<Juli />} />
           
          <Route path="abmTarjetas" element={<ABMTarjetas />} />

@@ -16,9 +16,11 @@ export default function Navegacion(){
 
            <Nav.Link href="#"><Link to="/">Recetas</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
 
-           <Nav.Link href="#"><Link to="/recetasveggie">Opciones Veggie</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+           <Nav.Link href="#"><Link to="/recetasveggie">Veggies</Link></Nav.Link> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
         
             <Nav.Link href="#"><Link to="/nosotros">Nosotros</Link> </Nav.Link>
+
+            <Nav.Link href="#"><Link to="/contacto">Contacto</Link> </Nav.Link>
 
            <Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>
           
