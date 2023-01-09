@@ -22,7 +22,7 @@ export default function Navegacion(){
 
             <Nav.Link href="#"><Link to="/contacto">Contacto</Link> </Nav.Link>
 
-           <Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>
+           {/*<Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>*/}
           
            <Nav.Link href="#"><Link to="/abmtarjetas">Administrar Recetas</Link></Nav.Link>
 

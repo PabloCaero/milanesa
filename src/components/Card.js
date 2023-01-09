@@ -21,6 +21,7 @@ export default function Card({card}){
         <div className="card">
             <img className="card-img" src={card.imagen} alt=""/>
             <div className="card-info">
+              <label></label>
              <h3 className="card-info_titulo">{card.titulo}</h3>
              <p className="card-info_descripcion">{card.descripcion}</p>
 

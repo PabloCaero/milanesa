@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 /*BOOTSTRAP*/
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'react-icons/ai';
 import 'react-jsonschema-form';
 
 

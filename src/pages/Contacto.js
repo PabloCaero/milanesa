@@ -2,7 +2,7 @@ import './Contacto.css';
 
 export default function Contacto(){
     return(
-        <div class="container">  
+        <div className="container3">  
             <form id="contact" action="" method="post">
             <h3>Contactate con nosotros 😊</h3>
         
@@ -20,7 +20,7 @@ export default function Contacto(){
       <textarea placeholder="Tu mensaje" tabindex="5" required></textarea>
         </fieldset>
             <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando ✉️">Enviar 🕊️</button>
+      <button name="submit" type="submit" id="contact-submit">Enviar 🕊️</button>
             </fieldset>
        
         </form>
