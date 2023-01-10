@@ -14,7 +14,7 @@ export default function Nosotros(){
 				<div className="title">
 					<h1>Sobre nosotros 😎</h1>
 				</div>
-				<div className="content">
+				<div className="content" >
 					<h3>Qué fiaca pensar en qué cocinar ¿no? 😓</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

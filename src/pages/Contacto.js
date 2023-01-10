@@ -1,10 +1,12 @@
 import './Contacto.css';
 
 export default function Contacto(){
-    return(
-        <div className="container3">  
+  return(
+    <>
+    <br />
+    <h1>¡Dejanos un mensaje! 😊</h1>
+    <div className="container3">  
             <form id="contact" action="" method="post">
-            <h3>Contactate con nosotros 😊</h3>
         
     <fieldset>
       <input placeholder="Nombre" type="text" tabindex="1" required autofocus />
@@ -25,5 +27,6 @@ export default function Contacto(){
        
         </form>
 </div>
+</>
     )
 }

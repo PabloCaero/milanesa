@@ -12,9 +12,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-icons/ai';
 import 'react-jsonschema-form';
 
+import background from './pages/fondo.jpg';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <div style={{ 
+    backgroundImage: `url(${background})` 
+  }}>
+
   <React.StrictMode>
     {/* INTERNACIONALIZACION */}
 
@@ -26,6 +31,7 @@ root.render(
 
    
   </React.StrictMode>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

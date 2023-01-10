@@ -96,22 +96,26 @@ eliminar=(dato)=>{
 
     render(){
       return(
-    
-      <>  
+
+        
+        <>  
+        <br />
+        <h1>Administración de Recetas</h1>   
+        <br />
       <Container>
 
         <br />
-        <Button color ="primary" onClick={()=>this.mostrarModalInsertar()}>Insertar Nuevo Elemento</Button>
+        <Button color ="primary" onClick={()=>this.mostrarModalInsertar()}>Insertar Nueva Receta</Button>
         <br /><br />
 
-        <Table>
+        <Table striped bordered hover size="sm">
           <thead>
             <tr>
               <th>ID</th>
               <th>Título</th>
-              <th>Descripcion</th>
+              {/*<th>Descripcion</th>*/}
               {/*<th>URL Imagen</th>*/}
-              <th>Condición T/F</th>  
+              <th>Tipo de Receta</th>  
               <th>Acciones</th>  
 
             </tr>
@@ -123,13 +127,17 @@ eliminar=(dato)=>{
               <tr>
               <td>{tarjeta.index}</td>
               <td>{tarjeta.titulo}</td>
-              <td>{tarjeta.descripcion}</td>
+              {/*<td>{tarjeta.descripcion}</td>*/}
               {/*<td >{tarjeta.imagen}</td>*/}
               <td>{tarjeta.condicion_tf &&
-                  <p>[TRUE]</p>
+                  <p style={{                       
+                    background: "transparent",              
+                  }}>Vegetariana</p>
                   }
                   {!tarjeta.condicion_tf &&
-                  <p>[FALSE]</p>
+                  <p  style={{                       
+                    background: "transparent",              
+                  }}>Contiene carne</p>
                   }                 
               </td>          
               <td>
@@ -149,7 +157,7 @@ eliminar=(dato)=>{
     {/*MODAL PARA INSERTAR*/}
     <Modal isOpen={this.state.modalInsertar}>
          <ModalHeader>
-           <div><h3>Insertar Registro</h3></div>
+           <div><h3>Nueva Receta</h3></div>
          </ModalHeader>
 
          <ModalBody>
@@ -210,7 +218,7 @@ eliminar=(dato)=>{
 
             <FormGroup>
               <label>
-                Condición T/F:
+                Marcar si la receta no contiene carne:
               </label>
                   <br />
               <input
@@ -235,7 +243,7 @@ eliminar=(dato)=>{
      {/*MODAL PARA MODIFICAR*/}
      <Modal isOpen={this.state.modalModificar}>
          <ModalHeader>
-           <div><h3>Modificar Registro</h3></div>
+           <div><h3>Modificar Receta</h3></div>
          </ModalHeader>
 
          <ModalBody>
@@ -299,7 +307,7 @@ eliminar=(dato)=>{
 
             <FormGroup>
               <label>
-                Condición T/F:
+              Marcar si la receta no contiene carne:
               </label>
                   <br />
               <input

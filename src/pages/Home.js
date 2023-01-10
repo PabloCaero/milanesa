@@ -1,5 +1,5 @@
 /*PARA LLAMAR A COMPONENTES*/
-import CardWrapperVeggie from '../components/CardWrapper';
+import CardWrapper from '../components/CardWrapper';
 
 /*EJEMPLO DE EVENTO*/
 //import EjemploEvento from '../components/EjemploEvento';
@@ -17,10 +17,11 @@ import CardWrapperVeggie from '../components/CardWrapper';
 export default function Home(){
     return(
         <>
-
+        <br />
         <h1>Recetas</h1>   
+        <br />
 
-        <CardWrapperVeggie titulo={"[NOMBRE DE SITIO]"}/> 
+        <CardWrapper titulo={"[NOMBRE DE SITIO]"}/> 
 
         {/*<Contador />
 

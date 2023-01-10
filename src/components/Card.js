@@ -23,15 +23,15 @@ export default function Card({card}){
             <div className="card-info">
               <label></label>
              <h3 className="card-info_titulo">{card.titulo}</h3>
-             <p className="card-info_descripcion">{card.descripcion}</p>
+             {/*<p className="card-info_descripcion">{card.descripcion}</p>*/}
 
 
              {/*CONDICIONALES (CONDITIONAL RENDERING)*/}
              {/*Para mas de una condicion condicion_tf && descripcion < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
-                 {card.condicion_tf  &&
+                 {!card.condicion_tf  &&
                     <p className="gratis"> Receta Normal </p> 
                  }
-                 {!card.condicion_tf &&
+                 {card.condicion_tf &&
                     <p className="gratis"> Receta Vegetariana </p> 
                  }
 

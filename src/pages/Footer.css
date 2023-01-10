@@ -1,8 +1,10 @@
 
 .wrapper {
     min-height: calc(100% - 4rem);
+           
   }
   .footer {
     height: 4rem;
-
+                      
+   
   }

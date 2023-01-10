@@ -16,9 +16,10 @@ import CardWrapperVeggie from '../components/CardWrapperVeggie';
 
 export default function Home(){
     return(
-        <>
-
+        <>   
+        <br />
         <h1>Veggies</h1>   
+        <br />
 
         <CardWrapperVeggie titulo={"[NOMBRE DE SITIO]"}/> 
 

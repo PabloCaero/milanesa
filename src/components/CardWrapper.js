@@ -13,6 +13,7 @@ export default function CardWrapper({titulo}){
 
     return(
       <center>
+        
       <Row xs={1} md={4} className="g-2">
       
       
@@ -35,14 +36,14 @@ export default function CardWrapper({titulo}){
         */}
 
         {tarjetas.map((tarjeta, index) => (
-          <Col>
-          {tarjeta.condicion_tf &&
+        <Col>
+          {!tarjeta.condicion_tf &&
           <Card 
             key={index}
             card={tarjeta}
           />
-         }
-          </Col>
+        }
+        </Col>
         ))}
 
 

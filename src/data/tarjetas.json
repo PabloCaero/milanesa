@@ -13,21 +13,21 @@
         "titulo": "[ITEM 2]",
         "imagen": "images/empanadas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "3",
         "titulo": "[ITEM 3]",
         "imagen": "images/milanesa.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "4",
         "titulo": "[ITEM 4]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "5",
@@ -41,7 +41,7 @@
         "titulo": "[ITEM 6]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "7",
@@ -62,25 +62,110 @@
         "titulo": "[ITEM 9]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "10",
         "titulo": "[ITEM 10]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "11",
         "titulo": "[ITEM 11]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
-        "condicion_tf": true
+        "condicion_tf": false
     },
     {
         "index": "12",
         "titulo": "[ITEM 12]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": false
+    },
+    {
+        "index": "13",
+        "titulo": "[ITEM 13]",
+        "imagen": "images/asado.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+
+    },
+    {
+        "index": "14",
+        "titulo": "[ITEM 14]",
+        "imagen": "images/empanadas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "15",
+        "titulo": "[ITEM 15]",
+        "imagen": "images/milanesa.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "16",
+        "titulo": "[ITEM 16]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "17",
+        "titulo": "[ITEM 17]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "18",
+        "titulo": "[ITEM 18]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "19",
+        "titulo": "[ITEM 19]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "20",
+        "titulo": "[ITEM 20]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "21",
+        "titulo": "[ITEM 21]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "22",
+        "titulo": "[ITEM 22]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "23",
+        "titulo": "[ITEM 23]",
+        "imagen": "images/pastas.jpg",
+        "descripcion": "[DESCRIPCION]",
+        "condicion_tf": true
+    },
+    {
+        "index": "24",
+        "titulo": "[ITEM 24]",
         "imagen": "images/pastas.jpg",
         "descripcion": "[DESCRIPCION]",
         "condicion_tf": true

@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 
+
 export default function CardWrapperVeggie({titulo}){
     
    
@@ -34,9 +35,10 @@ export default function CardWrapperVeggie({titulo}){
 
         */}
 
+        {/*NO SE COMO HACER PARA QUE NO APAREZCAN LAS COL QUE NO TIENEN TARJETA :( */}
         {tarjetas.map((tarjeta, index) => (
           <Col>
-          {!tarjeta.condicion_tf &&
+          {tarjeta.condicion_tf &&
           <Card
             key={index}
             card={tarjeta}
