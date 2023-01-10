@@ -35,16 +35,18 @@ export default function CardWrapper({titulo}){
 
         */}
 
-        {tarjetas.map((tarjeta, index) => (
-        <Col>
-          {!tarjeta.condicion_tf &&
-          <Card 
+        {tarjetas.map((tarjeta, index) => {
+          if(!tarjeta.condicion_tf){
+          return (<Col><Card
             key={index}
             card={tarjeta}
-          />
-        }
-        </Col>
-        ))}
+          /></Col>)
+          
+         }
+         else{
+          return null;
+         }
+      })}
 
 
          {/*<p><Card /></p>

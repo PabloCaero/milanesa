@@ -18,41 +18,33 @@ export default function CardWrapperVeggie({titulo}){
       
       
         
-       
 
-        {/*Cuando usamos un .map los elementos internos necesitan una propiedad "key" con un valor único. 
-        Podemos utilizar un ID o el indice del array
 
-        OPCION 1:
-         {tarjetas.map((tarjeta, index) => (
-          <p key={index}>{tarjeta.titulo}</p>
-        ))}
+        {/*10/01/2022
         
-        OPCION 2:
-        {tarjetas.map(tarjeta => (
-          <p key={tarjeta.id}>{tarjeta.titulo}</p>
-        ))}
-
-        */}
-
-        {/*NO SE COMO HACER PARA QUE NO APAREZCAN LAS COL QUE NO TIENEN TARJETA :( */}
-        {tarjetas.map((tarjeta, index) => (
-          <Col>
-          {tarjeta.condicion_tf &&
-          <Card
+        -COMO HACER PARA QUE NO APAREZCAN LAS COL QUE NO TIENEN TARJETA :(
+        -ICONS CON URLS EXTERNAS?
+        -TRABAJAR ESTILO DEL NAVBAR (ESTA)
+        -FALTANTES: LOGIN
+                    PAGINA HOME DE BIENVENIDA
+                    ¿QUE API USAR?
+ 
+          
+          */}
+        {tarjetas.map((tarjeta, index) => {
+          if(tarjeta.condicion_tf){
+          return (<Col><Card
             key={index}
             card={tarjeta}
-          />
+          /></Col>)
+          
          }
-          </Col>
-        ))}
+         else{
+          return null;
+         }
+      })}
 
 
-         {/*<p><Card /></p>
-            <p><Card /></p>
-            <p><Card /></p>
-            <p><Card /></p>  */} 
-        
         </Row>
         </center>
     )

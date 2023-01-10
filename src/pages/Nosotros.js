@@ -40,7 +40,7 @@ export default function Nosotros(){
 				
 				</div>
 				<div className="social">
-                   <BsTwitter/>  <label />          
+                   <a href="https://www.google.com"><BsTwitter /></a> <label />          
                    
                     <BsFacebook/>    <label />
               
