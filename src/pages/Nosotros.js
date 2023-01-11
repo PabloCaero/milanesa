@@ -40,13 +40,21 @@ export default function Nosotros(){
 				
 				</div>
 				<div className="social">
-                   <a href="https://www.google.com"><BsTwitter /></a> <label />          
+                   <a href="https://twitter.com/pablocaero" ><BsTwitter  style={{                       
+                    width: "30px", height: "auto",             
+                  }} /></a> <label />          
                    
-                    <BsFacebook/>    <label />
+                    <a href="https://www.facebook.com/pabloezequiel.caero/"><BsFacebook style={{                       
+                    width: "30px", height: "auto",             
+                  }}/></a>  <label />
               
-                    <BsGithub />    <label />
+                    <a href="https://github.com/PabloCaero"><BsGithub style={{                       
+                    width: "30px", height: "auto",             
+                  }} /> </a>   <label />
                    
-                    <BsInstagram />
+                    <a href="https://www.instagram.com/pabloecaero/"><BsInstagram style={{                       
+                    width: "30px", height: "auto",             
+                  }}/></a>
 					
 				</div>
 			</div>
