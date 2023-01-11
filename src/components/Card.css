@@ -14,14 +14,17 @@
     height: 200px;
     position: center;
 
+
+
 }
 
 .card-img2{
 
     margin-top: 7px;
     border: 5px solid white;
-    width: 100px;
-    height: 100x;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
 
 }
 

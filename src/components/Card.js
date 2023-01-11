@@ -49,13 +49,15 @@ export default function Card({card}){
           <Modal.Title>{card.titulo}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-
+         <center>      
         <img className="card-img2" src={card.imagen} alt=""/>
-    
+        </center>  
 
 
-        <p >{card.descripcion}</p>        
-
+        <p >{card.descripcion}</p>
+        <center>            
+        <a href={card.link_receta}>Ir a la receta</a>
+        </center>        
 
 
         </Modal.Body>

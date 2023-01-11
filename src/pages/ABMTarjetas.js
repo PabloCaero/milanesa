@@ -18,6 +18,7 @@ class ABMTarjetas extends React.Component{
       titulo: '',
       descripcion: '',
       imagen: '',
+      link_receta: '',
       condicion_tf: false 
     }
 
@@ -42,6 +43,7 @@ class ABMTarjetas extends React.Component{
         lista[contador].titulo = dato.titulo;
         lista[contador].descripcion = dato.descripcion;
         lista[contador].imagen = dato.imagen;
+        lista[contador].link_receta = dato.link_receta;
         lista[contador].condicion_tf = dato.condicion_tf;
       }
       contador++;
@@ -218,6 +220,19 @@ eliminar=(dato)=>{
 
             <FormGroup>
               <label>
+                Link de Receta:
+              </label>
+
+              <input
+                className="form-control"
+                name = "link_receta"
+                type="text"
+                onChange = {this.handleChange}  
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
                 Marcar si la receta no contiene carne:
               </label>
                   <br />
@@ -302,6 +317,20 @@ eliminar=(dato)=>{
                 type="text"
                 onChange = {this.handleChange}  
                 value={this.state.form.imagen}  
+              />        
+            </FormGroup>
+
+            <FormGroup>
+              <label>
+                Link de Receta:
+              </label>
+
+              <input
+                className="form-control"
+                name = "link_receta"
+                type="text"
+                onChange = {this.handleChange}  
+                value={this.state.form.link_receta}  
               />        
             </FormGroup>
 
