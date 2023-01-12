@@ -2,11 +2,12 @@
 [
     {
         "index": "1",
-        "titulo": "Empanadas tucumanas",
-        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/01/F2EC7D2F-6271-4524-863D-F10B93BAA360.jpg?resize=800%2C790&ssl=1",
-        "descripcion": "Empanadas que son una BOMBA 🤤 ¡Animate a hacerlas!",
-        "link_receta": "https://recetasargentinas.net/empanadas-tucumanas/",
+        "titulo": "🃏",
+        "imagen": "images/lunita.jpg",
+        "descripcion": "Buen día Juli, siendo 12 de Enero de 2023 y como prometí en detalles de super-comodín, dejo habilitada información sobre actividad a realizar a partir del 13/01 hasta el 15/01. Gracias por tu paciencia y bancar estas pavadas de mi parte (pero hechas siempre con mucho amor, no tenga duda de eso 🥰).  ",
+        "link_receta": "https://drive.google.com/drive/folders/1emYBL3lMELkk0g7kHVru8dpOLm3nFZfF?usp=sharing",
         "condicion_tf": false
+      
 
     },
     {
@@ -27,11 +28,11 @@
     },
     {
         "index": "4",
-        "titulo": "🃏",
-        "imagen": "images/lunita.jpg",
-        "descripcion": "Buen día Juli, siendo 12 de Enero de 2023 y como prometí en detalles de super-comodín, dejo habilitada información sobre actividad a realizar a partir del 13/01 hasta el 15/01. Gracias por tu paciencia y bancar estas pavadas de mi parte (pero hechas siempre con mucho amor, no tenga duda de eso 🥰).  ",
-        "link_receta": "https://drive.google.com/drive/folders/1emYBL3lMELkk0g7kHVru8dpOLm3nFZfF?usp=sharing",
-        "condicion_tf": true
+        "titulo": "Empanadas tucumanas",
+        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/01/F2EC7D2F-6271-4524-863D-F10B93BAA360.jpg?resize=800%2C790&ssl=1",
+        "descripcion": "Empanadas que son una BOMBA 🤤 ¡Animate a hacerlas!",
+        "link_receta": "https://recetasargentinas.net/empanadas-tucumanas/",
+        "condicion_tf": false
     },
     {
         "index": "5",
