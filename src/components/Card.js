@@ -22,17 +22,19 @@ export default function Card({card}){
             <img className="card-img" src={card.imagen} alt=""/>
             <div className="card-info">
               <label></label>
+            
              <h3 className="card-info_titulo">{card.titulo}</h3>
+             
              {/*<p className="card-info_descripcion">{card.descripcion}</p>*/}
 
 
              {/*CONDICIONALES (CONDITIONAL RENDERING)*/}
              {/*Para mas de una condicion condicion_tf && descripcion < 200 && ESTO SERÍA COMO UN ENTONCES*/}  
                  {!card.condicion_tf  &&
-                    <p className="gratis"> Receta Normal </p> 
+                    <p className="gratis"> {/*Receta Normal*/} </p> 
                  }
                  {card.condicion_tf &&
-                    <p className="gratis"> Receta Vegetariana </p> 
+                    <p className="gratis"> {/*Receta Vegetariana*/} </p> 
                  }
 
                 <Button variant="danger" onClick={handleShow}>
@@ -46,7 +48,11 @@ export default function Card({card}){
 
             <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
+          
+       
           <Modal.Title>{card.titulo}</Modal.Title>
+         
+
         </Modal.Header>
         <Modal.Body>
          <center>      
@@ -56,7 +62,7 @@ export default function Card({card}){
 
         <p >{card.descripcion}</p>
         <center>            
-        <a href={card.link_receta}>Ir a la receta</a>
+        <a href={card.link_receta}>Ver</a>
         </center>        
 
 

@@ -27,11 +27,11 @@
     },
     {
         "index": "4",
-        "titulo": "[ITEM 4]",
-        "imagen": "images/pastas.jpg",
-        "descripcion": "[DESCRIPCION]",
-        "link_receta": "",
-        "condicion_tf": false
+        "titulo": "🃏",
+        "imagen": "images/lunita.jpg",
+        "descripcion": "Buen día Juli, siendo 12 de Enero de 2023 y como prometí en detalles de super-comodín, dejo habilitada información sobre actividad a realizar a partir del 13/01 hasta el 15/01. Gracias por tu paciencia y bancar estas pavadas de mi parte (pero hechas siempre con mucho amor, no tenga duda de eso 🥰).  ",
+        "link_receta": "https://drive.google.com/drive/folders/1emYBL3lMELkk0g7kHVru8dpOLm3nFZfF?usp=sharing",
+        "condicion_tf": true
     },
     {
         "index": "5",
