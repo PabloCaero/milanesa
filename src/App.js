@@ -11,6 +11,7 @@ import Juli from './pages/Juli';
 import ABMTarjetas from './pages/ABMTarjetas';
 import RecetasVeggie from './pages/RecetasVeggie';
 import Contacto from './pages/Contacto';
+import Principal from './pages/Principal';
 
 
 import MensajeError from './pages/MensajeError';
@@ -28,7 +29,8 @@ function App() {
 
         <Route path="/" element={<Layout />}>
 
-          <Route index element={<Home />} />
+          <Route index element={<Principal />} />
+          <Route path="home" element={<Home />} />
           <Route path="recetasveggie" element={<RecetasVeggie />} />
           <Route path="nosotros" element={<Nosotros />} />
           <Route path="contacto" element={<Contacto />} />
