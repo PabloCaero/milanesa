@@ -7,9 +7,13 @@ import  NavLink  from 'react-bootstrap/NavLink';
 
 
 export default function Navegacion(){
+
+
+
+  
     return(
 
-        <>
+     <>
       <Navbar  expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">Recetas Simples 🍕</Navbar.Brand>
