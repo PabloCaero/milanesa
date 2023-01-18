@@ -1,7 +1,7 @@
 import tarjetas from '../data/tarjetas.json' //IMPORTO LA DATA
 import {Table, Button, Container, Modal, ModalHeader, FormGroup, ModalFooter, ModalBody } from 'reactstrap';
 import React from 'react';
-import LoginAdmin from './LoginAdmin';
+
 
 
 
@@ -14,6 +14,7 @@ class ABMTarjetas extends React.Component{
   state = {
     modalInsertar: false,
     modalModificar: false,
+    
 
     form:{
       index: '',
@@ -25,6 +26,8 @@ class ABMTarjetas extends React.Component{
     }
 
   }
+
+  
 
   //PARA MODIFICAR
   mostrarModalModificar=(dato)=>{
@@ -103,7 +106,7 @@ eliminar=(dato)=>{
 
         
         <>  
-        <LoginAdmin></LoginAdmin>
+     
         <br />
         <h1>Administración de Recetas</h1>   
         <br />

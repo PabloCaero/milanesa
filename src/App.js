@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Layout from './pages/Layout';
 import Juli from './pages/Juli';
-import ABMTarjetas from './pages/ABMTarjetas';
+import LoginAdmin from './pages/LoginAdmin';
 import RecetasVeggie from './pages/RecetasVeggie';
 import Contacto from './pages/Contacto';
 import Principal from './pages/Principal';
@@ -36,7 +36,7 @@ function App() {
           <Route path="contacto" element={<Contacto />} />
           <Route path="juli" element={<Juli />} />
           
-         <Route path="abmTarjetas" element={<ABMTarjetas />} />
+         <Route path="abmTarjetas" element={<LoginAdmin />} />
 
           {/*SI LA RUTA NO COINCIDE CON NINGUNA DE LAS ANTERIORES, MUESTRA UN 404*/}
           <Route path="*" element={<MensajeError />}/>
