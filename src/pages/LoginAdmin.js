@@ -1,4 +1,4 @@
-import './LoginAdmin.css';
+
 import ABMTarjetas from './ABMTarjetas';
 import usuarios from '../data/admin.json' //IMPORTO LA DATA
 import {Button, Modal, ModalHeader, FormGroup, ModalFooter, ModalBody} from 'reactstrap';
@@ -24,29 +24,40 @@ class LoginAdmin extends React.Component{
     
 
     var listaUsuario = usuarios;
+    var banderaIngreso = false;
+    var banderaCamposIncompletos = false;
     
     listaUsuario.forEach((usuario)=>{
-
+      
+      
       if(dato.usuario==="" || dato.password === ""){
-        alert("Complete ambos campos, no sea chanta 😘")
+        banderaCamposIncompletos = true;
       }
       else{
-
-        if(dato.usuario===usuario.usuario && dato.password === usuario.password){
-          alert("¡Muy bien Juli! 😊 Espero su mensajito por WhatsApp así le cuento de que se trata lo que tengo pa uste 👀")
-          this.setState({modalLogin:false});
-        }
-        else{
-         alert("Incorrecta 😔 Intente nuevamente")
-        }
-    }
-     
+        banderaCamposIncompletos = false;
+      }
       
-  });
+      
+      if(dato.usuario===usuario.usuario && dato.password === usuario.password){
+        var mensaje = "Bienvenido/a " + usuario.nombre + " 😺";
+        alert(mensaje);
+        banderaIngreso = true;
+        banderaCamposIncompletos = false;
+        this.setState({modalLogin:false});
+      }
 
+    });
+    
+    //ESTOS ARREGLOS EVITAN QUE EL FOREACH ALERTE MENSAJES REPETIDOS
+    if(banderaCamposIncompletos){
+      alert("Por favor, complete los campos requeridos")
+    }
 
-
+    if(!banderaIngreso && !banderaCamposIncompletos){
+      alert("Datos incorrectos 😔 Intente nuevamente")
+    }
    }
+
 
    //PARA CERRAR EL MODAL
    regresar=()=>{

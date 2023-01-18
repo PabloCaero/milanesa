@@ -3,7 +3,26 @@
     {
         "index": "1",
         "nombre": "ADMINISTRADOR",
+        "usuario": "admin",
+        "password": "admin"
+    },
+    {
+        "index": "2",
+        "nombre": "Pablo",
+        "usuario": "pcaero",
+        "password": "pcaero"
+    },
+    {
+        "index": "3",
+        "nombre": "Eva",
+        "usuario": "eferreira",
+        "password": "eferreira"
+    },
+    {
+        "index": "4",
+        "nombre": "Julieta",
         "usuario": "gregoria",
         "password": "islita2023"
     }
+   
 ]
