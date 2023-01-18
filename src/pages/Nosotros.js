@@ -22,10 +22,13 @@ export default function Nosotros(){
                            
 					background: "transparent",    
                   }}>
-					Recetas Simples es una web creada para ofrecerte una amplia variedad de recetas. 
-					El proyecto inició su trabajo con el objetivo de ayudar a todas aquellas personas que quieran disfrutar de ricos y sencillos platos, y a su vez descubrir sabores nuevos 
+					Recetas Simples es una web creada para ofrecerte una amplia variedad 
+					de preparaciones gastronómicas fáciles de realizar. 
+					El proyecto inició su trabajo con el objetivo de ayudar a todas aquellas personas que quieran 
+					disfrutar de ricos y sencillos platos, y a su vez descubrir sabores nuevos 
 					que requieren de poco tiempo. Trabajamos día a día en ampliar nuestro recetario con el fin de ayudarte 
-					a cocinar de una manera simple. Compartimos recetas de cocina tradicional y vegetariana, y te invitamos a que nos compartas en nuestra sección de contacto nuevas ideas para 
+					a cocinar de una manera simple. Compartimos recetas de cocina tradicional y vegetariana, 
+					y te invitamos a que nos compartas en nuestra sección de contacto nuevas ideas para 
 					implementar o sugerencias para mejorar el sitio. 	
 					</p>	 
 					<br />

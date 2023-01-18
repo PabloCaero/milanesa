@@ -1,28 +1,43 @@
 import './Contacto.css';
+import {Button} from 'reactstrap';
 
 export default function Contacto(){
+
+  
+  function enviar(){
+    
+    var nombre = document.getElementById("txtNombre");
+    
+
+    if(nombre.value !== ""){
+      var mensaje = nombre.value + ", tu mensaje fue enviado correctamente. A la brevedad nos contactaremos con vos! 😊"
+      alert(mensaje);
+    }
+   
+  }
+
   return(
     <>
     <br />
     <h1>¡Dejanos un mensaje! 😊</h1>
     <div className="container3">  
-            <form id="contact" action="" method="post">
+            <form id="contact">
         
     <fieldset>
-      <input placeholder="Nombre" type="text" tabindex="1" required autofocus />
+      <input id="txtNombre" placeholder="Nombre" type="text" tabindex="1" required autofocus />
     </fieldset>
     <fieldset>
-      <input placeholder="Email" type="email" tabindex="2" required />
+      <input id="txtMail" placeholder="Email" type="email" tabindex="2" required />
     </fieldset>
     <fieldset>
       <input placeholder="Contacto Telefónico" type="tel" tabindex="3" />
     </fieldset>
         
     <fieldset>
-      <textarea placeholder="Tu mensaje" tabindex="5" required></textarea>
+      <textarea id="txtMensaje" placeholder="Tu mensaje" tabindex="5" required></textarea>
         </fieldset>
             <fieldset>
-      <button name="submit" type="submit" id="contact-submit">Enviar 🕊️</button>
+      <Button color="primary" onClick={enviar} type="submit">Enviar 🕊️</Button>
             </fieldset>
        
         </form>
