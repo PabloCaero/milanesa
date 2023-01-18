@@ -21,7 +21,6 @@ class LoginAdmin extends React.Component{
     ingresoAdmin=(dato)=>{
     
 
-    var contador = 0;
     var listaUsuario = usuarios;
     
     listaUsuario.forEach((usuario)=>{
@@ -32,7 +31,7 @@ class LoginAdmin extends React.Component{
       else{
         alert("Intente nuevamente 😔")
       }
-      contador++;
+     
       
   });
 
