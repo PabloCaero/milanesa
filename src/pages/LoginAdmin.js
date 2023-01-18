@@ -25,11 +25,11 @@ class LoginAdmin extends React.Component{
     
     listaUsuario.forEach((usuario)=>{
       if(dato.usuario===usuario.usuario && dato.password === usuario.password){
-        alert("Ingreso exitoso 😊")
+        alert("¡Muy bien Juli! 😊 Espero su mensajito por WhatsApp así le cuento de que se trata lo que tengo pa uste 👀")
         this.setState({modalLogin:false});
       }
       else{
-        alert("Intente nuevamente 😔")
+        alert("Incorrecta 😔 Intente nuevamente")
       }
      
       
