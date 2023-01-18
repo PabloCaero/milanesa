@@ -8,6 +8,7 @@ import React from 'react';
 
 class LoginAdmin extends React.Component{
 
+  //ESTADOS 
   state = {
     modalLogin: true,
 
@@ -18,19 +19,27 @@ class LoginAdmin extends React.Component{
     }
   }
 
-    ingresoAdmin=(dato)=>{
+  //LOGICA PARA INGRESO A PERFIL ADMIN
+  ingresoAdmin=(dato)=>{
     
 
     var listaUsuario = usuarios;
     
     listaUsuario.forEach((usuario)=>{
-      if(dato.usuario===usuario.usuario && dato.password === usuario.password){
-        alert("¡Muy bien Juli! 😊 Espero su mensajito por WhatsApp así le cuento de que se trata lo que tengo pa uste 👀")
-        this.setState({modalLogin:false});
+
+      if(dato.usuario==="" || dato.password === ""){
+        alert("Complete ambos campos, no sea chanta 😘")
       }
       else{
-        alert("Incorrecta 😔 Intente nuevamente")
-      }
+
+        if(dato.usuario===usuario.usuario && dato.password === usuario.password){
+          alert("¡Muy bien Juli! 😊 Espero su mensajito por WhatsApp así le cuento de que se trata lo que tengo pa uste 👀")
+          this.setState({modalLogin:false});
+        }
+        else{
+         alert("Incorrecta 😔 Intente nuevamente")
+        }
+    }
      
       
   });
@@ -39,10 +48,12 @@ class LoginAdmin extends React.Component{
 
    }
 
+   //PARA CERRAR EL MODAL
    regresar=()=>{
     window.history.back();
    }
 
+   //PARA TOMAR DATOS SEGUN NAME DE LOS TAGS
    handleChange=e=>{
     this.setState({
       form:{
@@ -78,6 +89,7 @@ class LoginAdmin extends React.Component{
                 placeholder='Usuario'
                 onChange = {this.handleChange}  
                 value={this.state.form.usuario}  
+                required
                        
               />        
             </FormGroup>
@@ -91,6 +103,7 @@ class LoginAdmin extends React.Component{
                 placeholder='Contraseña'
                 onChange = {this.handleChange}  
                 value={this.state.form.password}  
+                required
              
               />        
             </FormGroup>
