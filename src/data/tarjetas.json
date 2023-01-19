@@ -12,13 +12,13 @@
     },
     {
         "index": "2",
-        "titulo": "Empanadas tucumanas 🥟",
-        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/01/F2EC7D2F-6271-4524-863D-F10B93BAA360.jpg?resize=800%2C790&ssl=1",
-        "descripcion": "Empanadas que son una BOMBA 🤤 ¡Animate a hacerlas!",
-        "link_receta": "https://recetasargentinas.net/empanadas-tucumanas/",
+        "titulo": "Revuelto gramajo clásico 🍟",
+        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/03/revuelto-gramajo-receta-800x534.jpg",
+        "descripcion": "Papas, huevos y jamón como base y después un montón de otras cosas que varían según cada familia y cada receta… Funciona a todos los niveles. Además de ser súper económico es delicioso y simple de hacer, un poquito de paciencia y ya está.",
+        "link_receta": "https://www.paulinacocina.net/revuelto-gramajo/26511",
         "condicion_tf": false
-       
     },
+    
     {
         "index": "3",
         "titulo": "Milanesas de carne",
@@ -95,12 +95,14 @@
     },
     {
         "index": "12",
-        "titulo": "Revuelto gramajo clásico 🍟",
-        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/03/revuelto-gramajo-receta-800x534.jpg",
-        "descripcion": "Papas, huevos y jamón como base y después un montón de otras cosas que varían según cada familia y cada receta… Funciona a todos los niveles. Además de ser súper económico es delicioso y simple de hacer, un poquito de paciencia y ya está.",
-        "link_receta": "https://www.paulinacocina.net/revuelto-gramajo/26511",
+        "titulo": "Empanadas tucumanas 🥟",
+        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/01/F2EC7D2F-6271-4524-863D-F10B93BAA360.jpg?resize=800%2C790&ssl=1",
+        "descripcion": "Empanadas que son una BOMBA 🤤 ¡Animate a hacerlas!",
+        "link_receta": "https://recetasargentinas.net/empanadas-tucumanas/",
         "condicion_tf": false
+       
     },
+   
     {
         "index": "13",
         "titulo": "Risotto de calabaza 🎃",
@@ -110,16 +112,9 @@
         "condicion_tf": true
 
     },
+    
     {
         "index": "14",
-        "titulo": "Berenjenas rellenas 🍆",
-        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/10/313052884_1824706371211741_2297583365858920340_n.jpeg?resize=800%2C1067&ssl=1",
-        "descripcion": "De vegetales, arroz, lentejas y quinoa. Es una opción sana y sobre todo facil de hacer para esos días que querés comer liviano pero rico 🔥",
-        "link_receta": "https://recetasargentinas.net/berenjenas-rellenas-de-vegetales-arrozlentejas-y-quinoa/",
-        "condicion_tf": true
-    },
-    {
-        "index": "15",
         "titulo": "Huevos al plato con curry de boniato",
         "imagen": "https://s1.eestatic.com/2022/12/27/cocinillas/recetas/729187790_229793895_1706x960.jpg",
         "descripcion": "Los huevos al plato son fabulosos para comer de plato único. Estos con curry son geniales para comer solo o con un poco de arroz o pasta.",
@@ -127,15 +122,16 @@
         "condicion_tf": true
     },
     {
-        "index": "16",
-        "titulo": "Tortilla de papas 🥔",
-        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2013/02/tortilla-de-papas1.jpeg?fit=720%2C960&ssl=1",
-        "descripcion": "Una TREMENDA opción para cuando estas muy a fin de mes, que si te animás, podés rellenarlo de lo que sea.",
-        "link_receta": "https://recetasargentinas.net/tortilla-de-papas/",
+        "index": "15",
+        "titulo": "Crema de calabaza 🎃",
+        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/12/receta-de-crema-de-calabaza-casera-800x534.jpg",
+        "descripcion": "La crema de calabaza es un plato sencillo y económico que se ha preparado con frecuencia en los hogares españoles y en muchas partes del mundo como plato principal o como acompañamiento de otras comidas. Es una opción deliciosa y nutritiva para el otoño y el invierno.",
+        "link_receta": "https://www.paulinacocina.net/crema-de-calabaza/28400",
         "condicion_tf": true
     },
+   
     {
-        "index": "17",
+        "index": "16",
         "titulo": "Chipacitos",
         "imagen": "https://imag.bonviveur.com/pan-chipa-en-un-cestillo.jpg",
         "descripcion": "Si te jugás por esta receta, indispensable tener preparado el termito con mate y buena compañia 🧉",
@@ -143,23 +139,16 @@
         "condicion_tf": true
     },
     {
-        "index": "18",
+        "index": "17",
         "titulo": "Pastel de papas y verduritas",
         "imagen": "https://cdn0.recetasgratis.net/es/posts/5/8/5/pastel_de_papas_vegetariano_74585_600.webp",
         "descripcion": "El pastel de papas es la mejor opción si tenés una reunión con varias personas, ya que es bastante contundente y rico (y sobre todo para el frío). Esta es la opción vegana, pero le agregas huevo y sale como 👊",
         "link_receta": "https://www.recetasgratis.net/receta-de-pastel-de-papas-vegetariano-74585.html",
         "condicion_tf": true
     },
+    
     {
-        "index": "19",
-        "titulo": "Tarta de zapallitos 🥒",
-        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2019/08/68942846_10156433762392596_2428687324511469568_n.jpg?fit=768%2C960&ssl=1",
-        "descripcion": "Ingredientes super sencillos pero que juntos forman un sabor increíble. Esta tarta de zapallitos, cebolla y queso te va a volar la cabeza 🤯",
-        "link_receta": "https://recetasargentinas.net/tarta-de-zapallitos/",
-        "condicion_tf": true
-    },
-    {
-        "index": "20",
+        "index": "18",
         "titulo": "Pizza casera 🍕",
         "imagen": "https://cdn0.recetasgratis.net/es/posts/1/9/3/pizza_casera_31391_600.webp",
         "descripcion": "Elaborar nuestra propia receta de pizza casera fácil es un proceso mucho más sencillo de lo que creemos, solo necesitamos conocer los ingredientes para pizza necesarios y el proceso a seguir para integrarlos. ",
@@ -167,7 +156,7 @@
         "condicion_tf": true
     },
     {
-        "index": "21",
+        "index": "19",
         "titulo": "Empanadas de verdura 🥬🥟",
         "imagen": "https://cdn0.recetasgratis.net/es/posts/7/1/5/empanadas_de_verdura_7517_600.webp",
         "descripcion": "Las empanadas de verdura, junto a las empanadas de pollo, de carne y de jamón y queso, son una de las más consumidas a nivel mundial gracias a su sabor y textura. Además, se pueden congelar cocidas durante 3 meses, asimismo, puede ser una gran alternativa para los días que no disponemos de tiempo. También son perfectas para llevar como vianda al trabajo, a la escuela o a la facultad.",
@@ -175,7 +164,7 @@
         "condicion_tf": true
     },
     {
-        "index": "22",
+        "index": "20",
         "titulo": "Pasta con verduras 🍜",
         "imagen": "https://imag.bonviveur.com/pasta-con-verduras.webp",
         "descripcion": "¿Te dieron ganas de un rico plato de pasta con verduras? ¡Entonces esta receta es para vos! Vas a querer repetir una y otra vez.",
@@ -183,7 +172,7 @@
         "condicion_tf": true
     },
     {
-        "index": "23",
+        "index": "21",
         "titulo": "Champiñones al ajillo 🧄",
         "imagen": "https://www.paulinacocina.net/wp-content/uploads/2021/12/champinones-al-ajillo-800x534.jpg",
         "descripcion": "Este plato que les traigo hoy está hecho con 5 ingredientes; cebolla, champiñones, ajo, vino blanco y perejil. Están riquísimos en su forma simple salteados, pero también en revueltos con huevos, al horno, en salsas, como guarnición, como aperitivo, como un ingrediente más de otros platos, en pizzas (por favor pruébenlos en pizza) e incluso rellenos.",
@@ -191,11 +180,28 @@
         "condicion_tf": true
     },
     {
+        "index": "22",
+        "titulo": "Tortilla de papas 🥔",
+        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2013/02/tortilla-de-papas1.jpeg?fit=720%2C960&ssl=1",
+        "descripcion": "Una TREMENDA opción para cuando estas muy a fin de mes, que si te animás, podés rellenarlo de lo que sea.",
+        "link_receta": "https://recetasargentinas.net/tortilla-de-papas/",
+        "condicion_tf": true
+    },
+   
+    {
+        "index": "23",
+        "titulo": "Tarta de zapallitos 🥒",
+        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2019/08/68942846_10156433762392596_2428687324511469568_n.jpg?fit=768%2C960&ssl=1",
+        "descripcion": "Ingredientes super sencillos pero que juntos forman un sabor increíble. Esta tarta de zapallitos, cebolla y queso te va a volar la cabeza 🤯",
+        "link_receta": "https://recetasargentinas.net/tarta-de-zapallitos/",
+        "condicion_tf": true
+    },
+    {
         "index": "24",
-        "titulo": "Crema de calabaza 🎃",
-        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/12/receta-de-crema-de-calabaza-casera-800x534.jpg",
-        "descripcion": "La crema de calabaza es un plato sencillo y económico que se ha preparado con frecuencia en los hogares españoles y en muchas partes del mundo como plato principal o como acompañamiento de otras comidas. Es una opción deliciosa y nutritiva para el otoño y el invierno.",
-        "link_receta": "https://www.paulinacocina.net/crema-de-calabaza/28400",
+        "titulo": "Berenjenas rellenas 🍆",
+        "imagen": "https://i0.wp.com/recetasargentinas.net/wp-content/uploads/2022/10/313052884_1824706371211741_2297583365858920340_n.jpeg?resize=800%2C1067&ssl=1",
+        "descripcion": "De vegetales, arroz, lentejas y quinoa. Es una opción sana y sobre todo facil de hacer para esos días que querés comer liviano pero rico 🔥",
+        "link_receta": "https://recetasargentinas.net/berenjenas-rellenas-de-vegetales-arrozlentejas-y-quinoa/",
         "condicion_tf": true
     }
     
