@@ -1,6 +1,6 @@
 import './CardWrapper.css';
 import tarjetas from '../data/tarjetas.json' //IMPORTO LA DATA
-import Card from './Card';
+import Card from './CardDesign';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
