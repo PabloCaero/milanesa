@@ -14,16 +14,16 @@ export default function Navegacion(){
     return(
 
      <>
-      <Navbar  expand="lg" bg="dark" variant="dark">
+      <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">Recetas Simples 🍕</Navbar.Brand>
           <Nav className="me-auto">
 
            <NavLink eventKey="1" as={Link} to="/">Home</NavLink> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
 
-           <NavLink eventKey="2" as={Link} to="/home">Recetas</NavLink> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+           <NavLink eventKey="2" as={Link} to="/recetas">Recetas Tradicionales</NavLink> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
 
-           <NavLink eventKey="3" as={Link}  to="/recetasveggie">Veggies</NavLink> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
+           <NavLink eventKey="3" as={Link}  to="/recetasveggie">Recetas Vegetarianas</NavLink> {/*PARA QUE RESPETE LA RAIZ SOLO ES LA BARRITA EN LA HOME*/}
         
            <NavLink eventKey="4" as={Link} to="/nosotros">Nosotros</NavLink>
 
