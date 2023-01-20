@@ -65,8 +65,10 @@ export default function CardDesign({card}){
 
         </Modal.Header>
         <Modal.Body>
-         <center>      
+         <center >      
+          <div style={{objectFit: "contain",}}>
         <img className="card-img2" src={card.imagen} alt=""/>
+        </div>
         </center>  
 
 
