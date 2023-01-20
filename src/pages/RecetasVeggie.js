@@ -18,7 +18,7 @@ export default function Home(){
     return(
         <>   
         <br />
-        <h1>Veggies</h1>   
+        <h1>Recetas Vegetarianas</h1>   
         <br />
 
         <CardWrapperVeggie titulo={"[NOMBRE DE SITIO]"}/> 

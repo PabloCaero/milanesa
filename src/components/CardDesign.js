@@ -22,7 +22,7 @@ export default function CardDesign({card}){
   <>
      
      
-     <Card color="light">
+     <Card color="light" onClick={handleShow}>
 
             <CardImg
           alt="Card image cap"

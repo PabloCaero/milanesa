@@ -13,13 +13,15 @@ export default function Principal(){
       <Row >
         <Col>
         <center>
-  <Card color="light">
-    <CardImg
+        <Card color="light">
+
+        <Link to="/recetas"><CardImg
       alt="Card image cap"
       src="https://pbs.twimg.com/media/FLmCVEnXoAEYsU4.jpg:large"
       top
       width="100%"
-    />
+    /></Link>
+
     <CardBody>
       <CardTitle tag="h5">
         Recetas Tradicionales
@@ -42,12 +44,12 @@ export default function Principal(){
 <Col>
 <center>
   <Card color="light">
-    <CardImg
+   <Link to="/recetasveggie"> <CardImg
       alt="Card image cap"
       src="https://aprende.com/wp-content/uploads/2020/07/cursos-de-comida-vegetariana-.jpg"
       top
       width="100%"
-    />
+    /></Link>
     <CardBody>
       <CardTitle tag="h5">
         Recetas Vegetarianas
