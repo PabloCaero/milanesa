@@ -28,10 +28,10 @@ export default function Navegacion(){
            <NavLink eventKey="4" as={Link} to="/nosotros">Nosotros</NavLink>
 
            <NavLink eventKey="6" as={Link} to="/contacto">Contacto</NavLink>
-
-           {/*<Nav.Link href="#"><Link to="/juli">Pista 👀</Link></Nav.Link>*/}
           
            <NavLink eventKey="7" as={Link} to="/abmtarjetas">Administrar Recetas</NavLink>
+
+           <NavLink eventKey="8" as={Link} to="/juli">Comodín 🫶</NavLink>
 
           </Nav>
         </Container>
