@@ -31,7 +31,7 @@ export default function Navegacion(){
           
            <NavLink eventKey="7" as={Link} to="/abmtarjetas">Administrar Recetas</NavLink>
 
-           <NavLink eventKey="8" as={Link} to="/juli">Comodín 🫶</NavLink>
+           {/*<NavLink eventKey="8" as={Link} to="/juli">Comodín 🫶</NavLink>*/}
 
           </Nav>
         </Container>
